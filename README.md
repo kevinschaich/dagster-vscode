@@ -33,5 +33,6 @@ dagster dev # (in the root directory of your pipelines)
 ```
 
 2. Open VSCode Command Palette (`⌘` + `Shift` + `P`) & select `Debug: Select and Start Debugging`
-3. A new VSCode window will open with compiled extension code
-4. Open VSCode Command Palette (`⌘` + `Shift` + `P`) & select `Open Dagster`
+3. Select `Run Web Extension`
+4. A new VSCode window will open with compiled extension code
+5. Open VSCode Command Palette (`⌘` + `Shift` + `P`) & select `Open Dagster`
