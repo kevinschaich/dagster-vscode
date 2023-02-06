@@ -13,6 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
         )
         // And set its HTML content
 		// TODO: is there a way to set URL directly instead of using an iframe?
+		// TODO: Content security policy (CSP) prevents us from accessing iframe contents when they are on different domains
         panel.webview.html = getWebviewContent()
     })
 
